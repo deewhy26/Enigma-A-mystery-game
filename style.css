@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{ 
+    z-index: 999;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px; 
+    transition: 0.5s ease; 
+}
+
+header .brand{
+    color: #ffff; 
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+body{ 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: #090724;
+}
+
+.slider{ 
+    position: relative;
+    width: 800px;
+    height: 500px; 
+    margin: 10px;
+    background: #090724; 
+}
+
+
+.slider .slide{ 
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.slider .slide img{ 
+    z-index: 1;
+    height: 500px;
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.slider .slide .info{ 
+    position:absolute;
+    bottom: 0; 
+    padding: 30px 15px;
+}
+
+
+.slider .slide .info h2{ 
+    color:floralwhite; 
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.slider .slide .info p{ 
+    color: blanchedalmond;
+    background: rgba(0,0,0,0.3);
+    font-size: 16px;
+    width: 100%;
+    padding: 10px; 
+    border-radius: 4px;
+}
+
+.slider .navigation{ 
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX((-50%));
+}
+
+.slider .navigation .btn{ 
+    background: rgba(255, 255, 255, 0.5);
+    width: 12px; 
+    height: 12px; 
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media (max-width: 820px){ 
+    .slider{ 
+        width: 600px; 
+        height:375px;
+    }
+    .slider .slide .info{ 
+        padding: 10px 25px; 
+
+    }
+    .slider .slide .info h2{ 
+        font-size: 35px;
+    }
+    .slider .slide .info p{ 
+            width: 70%; 
+            font-size: 15px;
+    }
+    .slider .navigation{ 
+        bottom: 25px; 
+    }
+    .slider .navigation .btn{ 
+        width: 10px; 
+        height: 10px;
+        margin: 8px;
+     
+    }
+
+}
+
+@media (max-width: 820px) {
+    .slider {
+        width: 400px;
+        height: 250px;
+    }
+
+    .slider .slide .info {
+        padding: 10px 25px;
+
+    }
+
+    .slider .slide .info h2 {
+        font-size: 35px;
+    }
+
+    .slider .slide .info p {
+        width: 70%;
+        font-size: 15px;
+    }
+
+    .slider .navigation {
+        bottom: 15px;
+    }
+
+    .slider .navigation .btn {
+        width: 8x;
+        height: 8px;
+        margin: 6px;
+
+    }
+
+}
