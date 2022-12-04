@@ -8,44 +8,353 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     </head>
     <body>
+        <div class = "play-bg">
+        <div class = "play">
+            <p class = "ready">Ready to crack the Enigma? </br></p>
+            <form name = 'to-play' action="#"></form>
+            <input id = "name" type = "text" placeholder="Enter your name..." autocomplete="off">
+            <button class="playbtn" onclick="ldrbrd()">Play Engima!</button>
+            
+        </div> 
+        </div>
+        <!-- <video id="bgVideo" controls preload="true" autoplay loop muted>
+            <source src="background.mp4" type="video/mp4" />
+        </video> -->
         <header>
-            <a href="#" class="brand">ENIGMA</a>
+            <img src="image-removebg-preview (9).png" class = "icon"></img>
+            <img src="logo.png" class="brand"></img>
+            <div class = 'timer'> 
+                <p id="countdown"></p>
+                
+            </div>
+            <div class = "points">
+                <p id = "pt"></p>
+            </div>
         </header>
 
         <div class="slider">
-            <div class="slide">
-                <img src="share.jpg" alt="">
+            <div class="slide active">
+                <img src="1.jpg" alt="">
                 <div class = "info">
                     <h2>+20</h2>
-                    <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go out and
-                    enjoy a wonderful dinner together. How can this be?</p>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go out and
+                    enjoy a wonderful dinner together. How can this be?</p> -->
                 </div>
             </div>
             <div class="slide">
-                <img src="lib.jpg" alt="">
+                <img src="2.jpg" alt="">
                 <div class="info">
-                    <h2>+40</h2>
-                    <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
                         out and
-                        enjoy a wonderful dinner together. How can this be?</p>
+                        enjoy a wonderful dinner together. How can this be?</p> -->
                 </div>
             </div>
             <div class="slide">
-                <img src="slide.jpg" alt="">
+                <img src="3.jpg" alt="">
                 <div class="info">
-                    <h2>+120</h2>
-                    <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
                         out and
-                        enjoy a wonderful dinner together. How can this be?</p>
+                        enjoy a wonderful dinner together. How can this be?</p> -->
                 </div>
-            </div><div class="navigation">
+            </div>
+            <div class="slide">
+                <img src="4.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                    out and
+                                    enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="5.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                    out and
+                                    enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="6.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                    out and
+                                    enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="7.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                    out and
+                                    enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="8.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                                out and
+                                                enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="9.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                                            out and
+                                                            enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="10.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                                                        out and
+                                                                        enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="11.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                                                                    out and
+                                                                                    enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="12.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                                                                    out and
+                                                                                    enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="13.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                                                                    out and
+                                                                                    enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="14.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                                                                    out and
+                                                                                    enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <div class="slide">
+                <img src="15.jpg" alt="">
+                <div class="info">
+                    <h2>+20</h2>
+                    <!-- <p>A woman shoots her husband, then holds him under water for five minutes. A little while later, they both go
+                                                                                                out and
+                                                                                                enjoy a wonderful dinner together. How can this be?</p> -->
+                </div>
+            </div>
+            <!--><div class="navigation">
+                <div class="btn active"></div>
                 <div class="btn"></div>
                 <div class="btn"></div>
-                <div class="btn"></div>
+            </div>
+            <-->
+            <div class="linkednav"> 
+                <i class = "fas fa-chevron-left prev-btn"></i>
+                <i class = "fas fa-chevron-right next-btn"></i> 
             </div>
 
         </div>
+
+        <div class = "enc-dec">
+            <form name = "encoding" action="#" onsubmit="return false">
+            <div class = "enc">
+                <input type = "text" name = "enc" required = "required" autocomplete="off">
+                <span>Encoder</span>
+            </div>
+            <button type = "submit" onclick = "convert()" class="encode">Encode!</button>
+            
+            <script src = "decode.js"></script>
+            </form>
+    
+            <!-- <div class='loader'></div>
+            <script src="check.js"></script> -->
+            <form name="decoding" action="#" onsubmit="return false">
+            <div class="dec">
+                <input type="text" name = "dec" required = "required" autocomplete="off">
+                <span>Decoder</span>
+            </div>
+            <button type = "submit" onclick = "validate()" class="decode">Decode!</button>
+            </form>
+        </div>
         
+        <div class="how-to-play">
+            <h3>How to play?</br></h3>
+            <p class ="the-txt">The World is at War and you need send a secret cipher message to the Government in the form of Enigma Code.
+            Enter the Enigma Code on each page in the Decoder to score Points.
+            Solve the brain teaser and use the Encoder to get the Enigma Code.
+            Be Cautious of the Timer as lives of millions are at stake so get your adrenaline going and get your brains to work</p>
+        </div>
+        <div class="leaderboard">
+            <p class = "heading"><strong>LEADERBOARD</strong></br></p>
+            <div class = "ranks"> 
+                <table>
+                    <tr>
+                        <td>Dhruv</td>
+                        <td> </td>
+                        <td></td>
+                        <td>220</td>
+                    </tr>
+                    <tr>
+                        <td>Dhruv</td>
+                        <td> </td>
+                        <td></td>
+                        <td>220</td>
+                    </tr>
+                    <tr>
+                        <td>Dhruv</td>
+                        <td> </td>
+                        <td></td>
+                        <td>220</td>
+                    </tr>
+                    <tr>
+                        <td>Amey</td>
+                        <td> </td>
+                        <td></td>
+                        <td>220</td>
+                    </tr>
+                    <tr>
+                        <td>Amey</td>
+                        <td> </td>
+                        <td></td>
+                        <td>220</td>
+                    </tr>
+                    <tr>
+                        <td>Amey</td>
+                        <td> </td>
+                        <td></td>
+                        <td>220</td>
+                    </tr>
+                    <tr>
+                        <td>Dhruv</td>
+                        <td> </td>
+                        <td></td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>Dhruv</td>
+                        <td> </td>
+                        <td></td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>Amey</td>
+                        <td> </td>
+                        <td></td>
+                        <td>180</td>
+                    </tr>
+                    <tr>
+                        <td>Dhruv</td>
+                        <td> </td>
+                        <td></td>
+                        <td>180</td>
+                    </tr>
+                    <tr>
+                        <td>Rishabh</td>
+                        <td> </td>
+                        <td></td>
+                        <td>160</td>
+                    </tr>
+                    <tr>
+                        <td>Dhruv</td>
+                        <td> </td>
+                        <td></td>
+                        <td>160</td>
+                    </tr>
+                    <tr>
+                        <td>Rishabh</td>
+                        <td> </td>
+                        <td></td>
+                        <td>140</td>
+                    </tr>
+                    <tr>
+                        <td>Dhruv</td>
+                        <td> </td>
+                        <td></td>
+                        <td>140</td>
+                    </tr>
+                    <tr>
+                        <td>Amey</td>
+                        <td> </td>
+                        <td></td>
+                        <td>120</td>
+                    </tr>
+                </table>
+            </div>
+            <script src="ranking.js"></script>
+        </div>
+        <script src = "linkedlist.js">
+        </script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+        <script>
+            // Import the functions you need from the SDKs you need
+                // Your web app's Firebase configuration
+                const firebaseConfig = {
+
+                        apiKey: "AIzaSyAgETZTyM_UxUIV7hQCO3webxzFVXVpsO0",
+
+                        authDomain: "enigma-9e894.firebaseapp.com",
+
+                        databaseURL: "https://enigma-9e894-default-rtdb.firebaseio.com",
+
+                        projectId: "enigma-9e894",
+
+                        storageBucket: "enigma-9e894.appspot.com",
+
+                        messagingSenderId: "862890510501",
+
+                        appId: "1:862890510501:web:6ecb898becf8e069f2a54c"
+
+                    };
+
+
+                    // Initialize Firebase
+
+                    firebase.initializeApp(firebaseConfig);
+
+                // Initialize Firebase
+                // const app = initializeApp(firebaseConfig);
+                firebase.initializeApp(firebaseConfig);
+                
+                // if (heap != null){
+                // write_to_firebase(heap);
+                // function write_to_firebase(arr) {
+                //         arr.forEach(element => {
+                //             set({
+                //                 name: element.name,
+                //                 points: element.pts
+                //             })
+                //         });
+                //     }
+                // }
+
+            
+        </script>
+        <script src="timer.js"></script>
         
     </body>
 
